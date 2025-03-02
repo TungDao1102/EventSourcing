@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcing.Domain", "EventSourcing.Domain\EventSourcing.Domain.csproj", "{84240F29-DD49-464E-AEF2-D5124DA2E9D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcing.Domain.Tests", "EventSourcing.Domain.Tests\EventSourcing.Domain.Tests.csproj", "{E13297F0-23B4-4722-BB8B-80FE99927588}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{84240F29-DD49-464E-AEF2-D5124DA2E9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84240F29-DD49-464E-AEF2-D5124DA2E9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84240F29-DD49-464E-AEF2-D5124DA2E9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13297F0-23B4-4722-BB8B-80FE99927588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13297F0-23B4-4722-BB8B-80FE99927588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13297F0-23B4-4722-BB8B-80FE99927588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13297F0-23B4-4722-BB8B-80FE99927588}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {768D206F-50E1-4F8A-AEF1-9A39D1BEBF83}
 	EndGlobalSection
 EndGlobal
