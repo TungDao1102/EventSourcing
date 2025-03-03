@@ -1,6 +1,4 @@
-﻿using EventSourcing.Domain.Boxes;
-
-namespace EventSourcing.Domain
+﻿namespace EventSourcing.Domain.Boxes
 {
     public record BoxCreated(BoxCapacity Capacity);
 

@@ -1,4 +1,6 @@
-﻿namespace EventSourcing.Domain.Tests.Boxes
+﻿using EventSourcing.Domain.Boxes.Commands;
+
+namespace EventSourcing.Domain.Tests.Boxes
 {
     public class CloseBoxTest : BoxTest<CloseBox>
     {

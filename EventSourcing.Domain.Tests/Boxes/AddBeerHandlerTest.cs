@@ -1,6 +1,9 @@
-﻿namespace EventSourcing.Domain.Tests.Boxes
+﻿using EventSourcing.Domain.Boxes;
+using EventSourcing.Domain.Boxes.Commands;
+
+namespace EventSourcing.Domain.Tests.Boxes
 {
-    public class AddBeerHanlderTest : BoxTest<AddBeerBottle>
+    public class AddBeerHandlerTest : BoxTest<AddBeerBottle>
     {
         protected override CommandHandler<AddBeerBottle> Handler
         => new AddBeerBottleHandler(eventStore);

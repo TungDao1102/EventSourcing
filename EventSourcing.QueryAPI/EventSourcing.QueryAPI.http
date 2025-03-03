@@ -1,0 +1,6 @@
+@EventSourcing.QueryAPI_HostAddress = http://localhost:5261
+
+GET {{EventSourcing.QueryAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

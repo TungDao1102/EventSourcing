@@ -16,7 +16,7 @@
                     Apply(boxCreated);
                     break;
                 case BeerBottleAdded beerBottleAdded:
-                    ApplyBeerBottleAdded(beerBottleAdded);
+                    Apply(beerBottleAdded);
                     break;
                 case ShippingLabelAdded shippingLabelAdded:
                     Apply(shippingLabelAdded);

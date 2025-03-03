@@ -16,6 +16,19 @@
             return entity;
         }
 
+        public TEntity GetEntityBySequence(int sequenceNumber)
+        {
+            var events = eventStore.GetEventsUntilSequence(aggregateId, sequenceNumber);
+
+            TEntity entity = new();
+            foreach (var @event in events)
+            {
+                entity.ApplyEvent(@event.EventData);
+            }
+
+            return entity;
+        }
+
         public void Append(object @event)
         {
             _lastSequenceNumber++;

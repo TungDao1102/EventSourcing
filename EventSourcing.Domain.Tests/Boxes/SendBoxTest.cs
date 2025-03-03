@@ -1,4 +1,5 @@
 ﻿using EventSourcing.Domain.Boxes;
+using EventSourcing.Domain.Boxes.Commands;
 
 namespace EventSourcing.Domain.Tests.Boxes
 {
