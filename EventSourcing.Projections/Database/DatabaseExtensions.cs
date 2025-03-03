@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using EventSourcing.Projections.Database.Repositories;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace EventSourcing.Projections.Database
 {
