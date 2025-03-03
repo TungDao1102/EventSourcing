@@ -17,7 +17,7 @@
             }
             else
             {
-                boxStream.Append(new ShippingLabelFailedToAdd(ShippingLabelFailedToAdd.FailReason.TrackingCodeInvalid));
+                boxStream.Append(new FailedToAddShippingLabel(FailedToAddShippingLabel.FailReason.TrackingCodeInvalid));
             }
         }
     }
